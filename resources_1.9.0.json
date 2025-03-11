@@ -1,0 +1,101 @@
+{
+  "uk-pawuk": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "eb7f7081ff8f6afea4d0caebbeacacd5"
+      }
+    },
+    "depparse": {
+      "iu_charlm": {
+        "md5": "9e69eaf5f7c8fb96bd07e93a73e3a4f3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "6971ebe224908d3253f0b4292b03e777"
+      }
+    },
+    "lemma": {
+      "iu_charlm": {
+        "md5": "4a195a082c8b9782ad888a407e34bb81",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "mwt": {
+      "iu": {
+        "md5": "4b4e37c0edb4ebbe9f89fb490bc36e8f"
+      }
+    },
+    "pos": {
+      "iu_charlm": {
+        "md5": "f07d6f12bc813e8a3266a59486e77162",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "conll17": {
+        "md5": "ef6e8fd63ac097d95b8e66d2a8e3707d"
+      }
+    },
+    "tokenize": {
+      "iu": {
+        "md5": "24415dec22f7f4d6d3061e20bc9f0dd7"
+      }
+    },
+    "default_processors": {
+      "tokenize": "iu",
+      "mwt": "iu",
+      "lemma": "iu_charlm",
+      "pos": "iu_charlm",
+      "depparse": "iu_charlm"
+    },
+    "packages": {
+      "default": {
+        "tokenize": "iu",
+        "mwt": "iu",
+        "lemma": "iu_charlm",
+        "pos": "iu_charlm",
+        "depparse": "iu_charlm"
+      }
+    },
+    "default_md5": "40e3d52f54cc2ae5c2042376155de3e1",
+    "lang_name": "Ukrainian"
+  },
+  "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
+}
