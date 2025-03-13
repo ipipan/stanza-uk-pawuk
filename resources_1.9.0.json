@@ -75,7 +75,7 @@
     },
     "tokenize": {
       "iu": {
-        "md5": "24415dec22f7f4d6d3061e20bc9f0dd7"
+        "md5": "c4dda85fe08fae542f710445284e44ca"
       }
     },
     "default_processors": {
@@ -94,7 +94,7 @@
         "depparse": "iu_charlm"
       }
     },
-    "default_md5": "40e3d52f54cc2ae5c2042376155de3e1",
+    "default_md5": "2bf30cd5dd725cdae9827a0feb8bf9b5",
     "lang_name": "Ukrainian"
   },
   "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
