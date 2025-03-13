@@ -79,18 +79,29 @@ print(doc)
     },
     {
       "id": 6,
-      "text": "Манілу.",
-      "lemma": "Манілу.",
+      "text": "Манілу",
+      "lemma": "Маніл",
       "upos": "PROPN",
-      "xpos": "noun:inanim:m:v_zna:prop:geo",
-      "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+      "xpos": "noun:inanim:f:v_zna:prop:geo",
+      "feats": "Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing",
       "head": 4,
       "deprel": "nmod",
       "start_char": 27,
+      "end_char": 33,
+      "misc": "SpaceAfter=No"
+    },
+    {
+      "id": 7,
+      "text": ".",
+      "lemma": ".",
+      "upos": "PUNCT",
+      "xpos": "punct",
+      "head": 3,
+      "deprel": "punct",
+      "start_char": 33,
       "end_char": 34,
       "misc": "SpaceAfter=No"
     }
   ]
 ]
-
 ```
